@@ -83,7 +83,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                                 <span>£{total().toFixed(2)}</span>
                             </div>
                             <button className="btn btn__checkout no-cursor" 
-                            onClick={() => alert(`Not Available`)}>
+                            onClick={() => alert(`Sorry, feature not been added yet!`)}>
                                 Proceed to checkout
                             </button>
                         </div>}
